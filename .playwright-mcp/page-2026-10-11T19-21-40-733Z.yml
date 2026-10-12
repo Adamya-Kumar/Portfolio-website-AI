@@ -1,0 +1,620 @@
+- generic [ref=f3e2]:
+  - link "Skip to content" [ref=f3e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e4]:
+    - navigation "Main navigation" [ref=f3e5]:
+      - link "Adamya, home" [ref=f3e6] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f3e7]: A.
+        - generic [ref=f3e8]: ADAMYA
+      - generic [ref=f3e9]:
+        - link "Selected work" [ref=f3e10] [cursor=pointer]:
+          - /url: "#work"
+        - link "About" [ref=f3e11] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=f3e12] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f3e13]:
+        - link "Resume ↓" [ref=f3e14] [cursor=pointer]:
+          - /url: /Adamya-Kumar-Resume.pdf
+        - button "Switch to dark theme" [ref=f3e15] [cursor=pointer]
+        - link "Let’s talk" [ref=f3e29] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Let’s talk
+          - generic [aria-hidden] [ref=f3e30]: ↗
+  - main [ref=f3e31]:
+    - generic [ref=f3e32]:
+      - generic [ref=f3e33]:
+        - generic [ref=f3e34]:
+          - paragraph [ref=f3e35]: Full stack development / Generative AI
+          - heading "I build intelligent systems." [level=1] [ref=f3e37]:
+            - generic [ref=f3e38]: I build
+            - generic [ref=f3e40]: intelligent
+            - generic [ref=f3e42]: systems.
+        - generic [ref=f3e44]:
+          - link "Explore selected work" [ref=f3e45] [cursor=pointer]:
+            - /url: "#work"
+            - text: Explore selected work
+            - generic [aria-hidden] [ref=f3e46]: ↓
+          - paragraph [ref=f3e47]: I’m Adamya — a Full Stack Developer building web applications and practical generative AI tools.
+      - generic [ref=f3e48]:
+        - generic [ref=f3e49]: Independent engineer
+        - generic [ref=f3e50]: Scroll to explore ↓
+        - generic [ref=f3e51]: 01 — 04
+    - generic [ref=f3e53]:
+      - paragraph [ref=f3e54]: Building across
+      - generic [ref=f3e55]:
+        - generic [ref=f3e56]: Full stack
+        - generic [ref=f3e58]:
+          - generic [aria-hidden] [ref=f3e59]: /
+          - generic [ref=f3e60]: RAG
+        - generic [ref=f3e61]:
+          - generic [aria-hidden] [ref=f3e62]: /
+          - generic [ref=f3e63]: Agentic AI
+        - generic [ref=f3e64]:
+          - generic [aria-hidden] [ref=f3e65]: /
+          - generic [ref=f3e66]: LLM systems
+        - generic [ref=f3e67]:
+          - generic [aria-hidden] [ref=f3e68]: /
+          - generic [ref=f3e69]: APIs
+    - generic [ref=f3e71]:
+      - generic [ref=f3e72]:
+        - generic [ref=f3e73]:
+          - paragraph [ref=f3e74]: 01 / Selected work
+          - heading "Ideas into working systems." [level=2] [ref=f3e75]: Ideas intoworking systems.
+        - paragraph [ref=f3e76]: A selection of explorations across AI and software engineering. Filter by focus to find your way through.
+        - generic [aria-hidden] [ref=f3e77]:
+          - generic [ref=f3e93]: SIGNAL / 01
+          - generic [ref=f3e94]: SYSTEMS ONLINE
+      - group "Filter projects" [ref=f3e95]:
+        - button "All work03" [pressed] [ref=f3e96]
+        - button "Full stack" [ref=f3e97]
+        - button "GenAI" [ref=f3e98]
+        - button "Agentic AI" [ref=f3e99]
+        - button "RAG" [ref=f3e100]
+        - paragraph [ref=f3e101]: Showing 3 projects
+      - generic [ref=f3e102]:
+        - link "Open E-commerce-website-with-an-integrated-RAG project details" [ref=f3e103] [cursor=pointer]:
+          - generic [ref=f3e105]:
+            - generic [aria-hidden] [ref=f3e112]: +
+            - generic [ref=f3e113]: 01 / SPARK COMMERCE
+          - generic [ref=f3e114]:
+            - generic [ref=f3e115]:
+              - generic [ref=f3e116]: Full stack
+              - generic [ref=f3e117]: E-commerce
+            - heading "Spark Commerce" [level=3] [ref=f3e118]
+            - paragraph [ref=f3e119]: A full-stack storefront and admin panel with product browsing, a shopping cart, Cash on Delivery checkout, and order management.
+            - generic [ref=f3e120]:
+              - generic [ref=f3e121]:
+                - text: AI
+                - generic [ref=f3e122]:
+                  - paragraph [ref=f3e123]: AI shopping assistant
+                  - paragraph [ref=f3e124]: Product discovery · streaming responses
+                - generic "Assistant available"
+              - paragraph [ref=f3e125]: “Help me find something I’ll love.”
+              - generic [ref=f3e126]:
+                - generic [ref=f3e127]: FastAPI
+                - generic [ref=f3e128]: LangGraph
+                - generic [ref=f3e129]: Gemini
+                - generic [ref=f3e130]: FAISS
+                - generic [ref=f3e131]: Server-Sent Events
+              - paragraph [ref=f3e132]: VIEW THE FULL PROJECT STORY ↗
+            - group [ref=f3e133]:
+              - generic "Project notes" [ref=f3e134]:
+                - generic [aria-hidden] [ref=f3e136]: +
+            - generic [ref=f3e137]:
+              - link "Visit live store" [ref=f3e138]:
+                - /url: https://www.carteer.space/
+                - text: Visit live store
+                - generic [aria-hidden] [ref=f3e139]: ↗
+              - link "View E-commerce-website-with-an-integrated-RAG on GitHub" [ref=f3e140]:
+                - /url: https://github.com/Adamya-Kumar/E-commerce-website-with-an-integrated-RAG
+                - text: GitHub / E-commerce-website-with-an-integrated-RAG ↗
+        - link "Open Production-RAG-Bot project details" [ref=f3e141] [cursor=pointer]:
+          - generic [ref=f3e142]: 02 / PRODUCTION RAG
+          - generic [ref=f3e150]:
+            - generic [ref=f3e151]:
+              - generic [ref=f3e152]: RAG
+              - generic [ref=f3e153]: PDF question answering
+            - heading "Production RAG bot" [level=3] [ref=f3e154]
+            - paragraph [ref=f3e155]: A deployed chatbot for uploading multiple PDFs, asking questions about their contents, and exploring the retrieved document chunks.
+            - group [ref=f3e156]:
+              - generic "Project notes" [ref=f3e157]:
+                - generic [aria-hidden] [ref=f3e159]: +
+            - generic [ref=f3e160]:
+              - link "Open live RAG bot" [ref=f3e161]:
+                - /url: https://pro-rag-chatbot.streamlit.app/
+                - text: Open live RAG bot
+                - generic [aria-hidden] [ref=f3e162]: ↗
+              - link "View Production-RAG-Bot on GitHub" [ref=f3e163]:
+                - /url: https://github.com/Adamya-Kumar/Production-RAG-Bot
+                - text: GitHub / Production-RAG-Bot ↗
+        - link "Open ResearchMind-Multi-Agent-AI-Research-System project details" [ref=f3e164] [cursor=pointer]:
+          - generic [ref=f3e166]:
+            - generic [ref=f3e170]: AI
+            - generic [ref=f3e171]: 03 / RESEARCHMIND
+          - generic [ref=f3e172]:
+            - generic [ref=f3e173]:
+              - generic [ref=f3e174]: Agentic AI
+              - generic [ref=f3e175]: Research
+            - heading "ResearchMind" [level=3] [ref=f3e176]
+            - paragraph [ref=f3e177]: A four-stage multi-agent research pipeline that searches for recent sources, reads and scrapes them, drafts a report, and reviews the result.
+            - group [ref=f3e178]:
+              - generic "Project notes" [ref=f3e179]:
+                - generic [aria-hidden] [ref=f3e181]: +
+            - generic [ref=f3e182]:
+              - link "Open ResearchMind" [ref=f3e183]:
+                - /url: https://researchmind-multi-agent-ai-research.onrender.com/
+                - text: Open ResearchMind
+                - generic [aria-hidden] [ref=f3e184]: ↗
+              - link "View ResearchMind-Multi-Agent-AI-Research-System on GitHub" [ref=f3e185]:
+                - /url: https://github.com/Adamya-Kumar/ResearchMind-Multi-Agent-AI-Research-System
+                - text: GitHub / ResearchMind-Multi-Agent-AI-Research-System ↗
+    - generic [ref=f3e187]:
+      - generic [ref=f3e188]:
+        - generic [ref=f3e189]:
+          - paragraph [ref=f3e190]: More work / GitHub
+          - heading "More live projects." [level=2] [ref=f3e191]
+        - link "All GitHub repositories" [ref=f3e192] [cursor=pointer]:
+          - /url: https://github.com/Adamya-Kumar?tab=repositories
+          - text: All GitHub repositories
+          - generic [aria-hidden] [ref=f3e193]: ↗
+      - paragraph [ref=f3e194]: More public repositories with demo links configured on GitHub. Open a live project or browse its source.
+      - generic [ref=f3e195]:
+        - link "Open Three-way-match-engine project details" [ref=f3e196] [cursor=pointer]:
+          - generic [ref=f3e197]:
+            - paragraph [ref=f3e198]: 04 / JavaScript
+            - heading "Three-way-match-engine" [level=3] [ref=f3e199]
+          - generic [ref=f3e200]:
+            - link "Live demo ↗" [ref=f3e201]:
+              - /url: https://three-way-match-engine.vercel.app
+            - link "Source ↗" [ref=f3e202]:
+              - /url: https://github.com/Adamya-Kumar/Three-way-match-engine
+        - link "Open Prompter project details" [ref=f3e203] [cursor=pointer]:
+          - generic [ref=f3e204]:
+            - paragraph [ref=f3e205]: 05 / JavaScript
+            - heading "Prompter" [level=3] [ref=f3e206]
+          - generic [ref=f3e207]:
+            - link "Live demo ↗" [ref=f3e208]:
+              - /url: https://prompter-indol.vercel.app
+            - link "Source ↗" [ref=f3e209]:
+              - /url: https://github.com/Adamya-Kumar/Prompter
+        - link "Open backend project details" [ref=f3e210] [cursor=pointer]:
+          - generic [ref=f3e211]:
+            - paragraph [ref=f3e212]: 06 / JavaScript
+            - heading "backend" [level=3] [ref=f3e213]
+          - generic [ref=f3e214]:
+            - link "Live demo ↗" [ref=f3e215]:
+              - /url: https://backend-dusky-one-93.vercel.app
+            - link "Source ↗" [ref=f3e216]:
+              - /url: https://github.com/Adamya-Kumar/backend
+        - link "Open backend-myntra project details" [ref=f3e217] [cursor=pointer]:
+          - generic [ref=f3e218]:
+            - paragraph [ref=f3e219]: 07 / JavaScript
+            - heading "backend-myntra" [level=3] [ref=f3e220]
+          - generic [ref=f3e221]:
+            - link "Live demo ↗" [ref=f3e222]:
+              - /url: https://backend-myntra.vercel.app
+            - link "Source ↗" [ref=f3e223]:
+              - /url: https://github.com/Adamya-Kumar/backend-myntra
+        - link "Open QuickAI project details" [ref=f3e224] [cursor=pointer]:
+          - generic [ref=f3e225]:
+            - paragraph [ref=f3e226]: 08 / JavaScript
+            - heading "QuickAI" [level=3] [ref=f3e227]
+          - generic [ref=f3e228]:
+            - link "Live demo ↗" [ref=f3e229]:
+              - /url: https://quick-ai-three.vercel.app/
+            - link "Source ↗" [ref=f3e230]:
+              - /url: https://github.com/Adamya-Kumar/QuickAI
+        - link "Open WhiteBoard project details" [ref=f3e231] [cursor=pointer]:
+          - generic [ref=f3e232]:
+            - paragraph [ref=f3e233]: 09 / JavaScript
+            - heading "WhiteBoard" [level=3] [ref=f3e234]
+          - generic [ref=f3e235]:
+            - link "Live demo ↗" [ref=f3e236]:
+              - /url: https://white-board-six-psi.vercel.app
+            - link "Source ↗" [ref=f3e237]:
+              - /url: https://github.com/Adamya-Kumar/WhiteBoard
+        - link "Open next-dashboard project details" [ref=f3e238] [cursor=pointer]:
+          - generic [ref=f3e239]:
+            - paragraph [ref=f3e240]: 10 / TypeScript
+            - heading "next-dashboard" [level=3] [ref=f3e241]
+          - generic [ref=f3e242]:
+            - link "Live demo ↗" [ref=f3e243]:
+              - /url: https://next-dashboard-ashy-seven.vercel.app
+            - link "Source ↗" [ref=f3e244]:
+              - /url: https://github.com/Adamya-Kumar/next-dashboard
+        - link "Open Eatoes-The-Digital-Diner project details" [ref=f3e245] [cursor=pointer]:
+          - generic [ref=f3e246]:
+            - paragraph [ref=f3e247]: 11 / JavaScript
+            - heading "Eatoes-The-Digital-Diner" [level=3] [ref=f3e248]
+          - generic [ref=f3e249]:
+            - link "Live demo ↗" [ref=f3e250]:
+              - /url: https://eatoes-the-digital-diner.netlify.app/
+            - link "Source ↗" [ref=f3e251]:
+              - /url: https://github.com/Adamya-Kumar/Eatoes-The-Digital-Diner
+        - link "Open Converso_AI_Trainer project details" [ref=f3e252] [cursor=pointer]:
+          - generic [ref=f3e253]:
+            - paragraph [ref=f3e254]: 12 / TypeScript
+            - heading "Converso_AI_Trainer" [level=3] [ref=f3e255]
+          - generic [ref=f3e256]:
+            - link "Live demo ↗" [ref=f3e257]:
+              - /url: https://conversoai-neon.vercel.app
+            - link "Source ↗" [ref=f3e258]:
+              - /url: https://github.com/Adamya-Kumar/Converso_AI_Trainer
+        - link "Open ai_mock_interview project details" [ref=f3e259] [cursor=pointer]:
+          - generic [ref=f3e260]:
+            - paragraph [ref=f3e261]: 13 / JavaScript
+            - heading "ai_mock_interview" [level=3] [ref=f3e262]
+          - generic [ref=f3e263]:
+            - link "Live demo ↗" [ref=f3e264]:
+              - /url: https://ai-mock-interview-silk-eight.vercel.app
+            - link "Source ↗" [ref=f3e265]:
+              - /url: https://github.com/Adamya-Kumar/ai_mock_interview
+        - link "Open netflix-clone-mern-stack project details" [ref=f3e266] [cursor=pointer]:
+          - generic [ref=f3e267]:
+            - paragraph [ref=f3e268]: 14 / JavaScript
+            - heading "netflix-clone-mern-stack" [level=3] [ref=f3e269]
+          - generic [ref=f3e270]:
+            - link "Live demo ↗" [ref=f3e271]:
+              - /url: https://netfilxclone-hbac.onrender.com/
+            - link "Source ↗" [ref=f3e272]:
+              - /url: https://github.com/Adamya-Kumar/netflix-clone-mern-stack
+        - link "Open Portfolio-Website project details" [ref=f3e273] [cursor=pointer]:
+          - generic [ref=f3e274]:
+            - paragraph [ref=f3e275]: 15 / HTML
+            - heading "Portfolio-Website" [level=3] [ref=f3e276]
+          - generic [ref=f3e277]:
+            - link "Live demo ↗" [ref=f3e278]:
+              - /url: https://portfolio-website-two-ochre.vercel.app
+            - link "Source ↗" [ref=f3e279]:
+              - /url: https://github.com/Adamya-Kumar/Portfolio-Website
+        - link "Open Todo-List-Using-ReactJS project details" [ref=f3e280] [cursor=pointer]:
+          - generic [ref=f3e281]:
+            - paragraph [ref=f3e282]: 16 / JavaScript
+            - heading "Todo-List-Using-ReactJS" [level=3] [ref=f3e283]
+          - generic [ref=f3e284]:
+            - link "Live demo ↗" [ref=f3e285]:
+              - /url: https://todo-list-using-react-js-chi.vercel.app
+            - link "Source ↗" [ref=f3e286]:
+              - /url: https://github.com/Adamya-Kumar/Todo-List-Using-ReactJS
+        - link "Open ERP-cloud project details" [ref=f3e287] [cursor=pointer]:
+          - generic [ref=f3e288]:
+            - paragraph [ref=f3e289]: 17 / HTML
+            - heading "ERP-cloud" [level=3] [ref=f3e290]
+          - generic [ref=f3e291]:
+            - link "Live demo ↗" [ref=f3e292]:
+              - /url: https://erp-cloud.vercel.app
+            - link "Source ↗" [ref=f3e293]:
+              - /url: https://github.com/Adamya-Kumar/ERP-cloud
+        - link "Open Real-Time-Location-Tracking-App project details" [ref=f3e294] [cursor=pointer]:
+          - generic [ref=f3e295]:
+            - paragraph [ref=f3e296]: 18 / JavaScript
+            - heading "Real-Time-Location-Tracking-App" [level=3] [ref=f3e297]
+          - generic [ref=f3e298]:
+            - link "Live demo ↗" [ref=f3e299]:
+              - /url: https://real-time-location-tracking-app.vercel.app
+            - link "Source ↗" [ref=f3e300]:
+              - /url: https://github.com/Adamya-Kumar/Real-Time-Location-Tracking-App
+        - link "Open StudySync-UI project details" [ref=f3e301] [cursor=pointer]:
+          - generic [ref=f3e302]:
+            - paragraph [ref=f3e303]: 19 / HTML
+            - heading "StudySync-UI" [level=3] [ref=f3e304]
+          - generic [ref=f3e305]:
+            - link "Live demo ↗" [ref=f3e306]:
+              - /url: https://study-sync-ui-xi.vercel.app
+            - link "Source ↗" [ref=f3e307]:
+              - /url: https://github.com/Adamya-Kumar/StudySync-UI
+        - link "Open Employee-management-system-using-React.js project details" [ref=f3e308] [cursor=pointer]:
+          - generic [ref=f3e309]:
+            - paragraph [ref=f3e310]: 20 / JavaScript
+            - heading "Employee-management-system-using-React.js" [level=3] [ref=f3e311]
+          - generic [ref=f3e312]:
+            - link "Live demo ↗" [ref=f3e313]:
+              - /url: https://employee-management-system-using-react-js-six.vercel.app
+            - link "Source ↗" [ref=f3e314]:
+              - /url: https://github.com/Adamya-Kumar/Employee-management-system-using-React.js
+        - link "Open MERN-Chat-App project details" [ref=f3e315] [cursor=pointer]:
+          - generic [ref=f3e316]:
+            - paragraph [ref=f3e317]: 21 / JavaScript
+            - heading "MERN-Chat-App" [level=3] [ref=f3e318]
+          - generic [ref=f3e319]:
+            - link "Live demo ↗" [ref=f3e320]:
+              - /url: https://mern-chat-app-lac-zeta.vercel.app
+            - link "Source ↗" [ref=f3e321]:
+              - /url: https://github.com/Adamya-Kumar/MERN-Chat-App
+        - link "Open Leetcode-Metric project details" [ref=f3e322] [cursor=pointer]:
+          - generic [ref=f3e323]:
+            - paragraph [ref=f3e324]: 22 / JavaScript
+            - heading "Leetcode-Metric" [level=3] [ref=f3e325]
+          - generic [ref=f3e326]:
+            - link "Live demo ↗" [ref=f3e327]:
+              - /url: https://leetcodemetric.vercel.app
+            - link "Source ↗" [ref=f3e328]:
+              - /url: https://github.com/Adamya-Kumar/Leetcode-Metric
+        - link "Open AI-Powered-chess project details" [ref=f3e329] [cursor=pointer]:
+          - generic [ref=f3e330]:
+            - paragraph [ref=f3e331]: 23 / Python
+            - heading "AI-Powered-chess" [level=3] [ref=f3e332]
+          - generic [ref=f3e333]:
+            - link "Live demo ↗" [ref=f3e334]:
+              - /url: https://ai-powered-chess.vercel.app
+            - link "Source ↗" [ref=f3e335]:
+              - /url: https://github.com/Adamya-Kumar/AI-Powered-chess
+        - link "Open URL-Shortener-Service project details" [ref=f3e336] [cursor=pointer]:
+          - generic [ref=f3e337]:
+            - paragraph [ref=f3e338]: 24 / JavaScript
+            - heading "URL-Shortener-Service" [level=3] [ref=f3e339]
+          - generic [ref=f3e340]:
+            - link "Live demo ↗" [ref=f3e341]:
+              - /url: https://url-shortener-service-one.vercel.app
+            - link "Source ↗" [ref=f3e342]:
+              - /url: https://github.com/Adamya-Kumar/URL-Shortener-Service
+        - link "Open NodeJS-Auth-jwt project details" [ref=f3e343] [cursor=pointer]:
+          - generic [ref=f3e344]:
+            - paragraph [ref=f3e345]: 25 / JavaScript
+            - heading "NodeJS-Auth-jwt" [level=3] [ref=f3e346]
+          - generic [ref=f3e347]:
+            - link "Live demo ↗" [ref=f3e348]:
+              - /url: https://node-js-auth-jwt.vercel.app
+            - link "Source ↗" [ref=f3e349]:
+              - /url: https://github.com/Adamya-Kumar/NodeJS-Auth-jwt
+        - link "Open Airbnb_clone_interface_in_ReactJS project details" [ref=f3e350] [cursor=pointer]:
+          - generic [ref=f3e351]:
+            - paragraph [ref=f3e352]: 26 / CSS
+            - heading "Airbnb_clone_interface_in_ReactJS" [level=3] [ref=f3e353]
+          - generic [ref=f3e354]:
+            - link "Live demo ↗" [ref=f3e355]:
+              - /url: https://airbnb-clone-interface-in-react-js.vercel.app
+            - link "Source ↗" [ref=f3e356]:
+              - /url: https://github.com/Adamya-Kumar/Airbnb_clone_interface_in_ReactJS
+      - paragraph [ref=f3e357]: 26 public projects with live demo links
+    - generic [ref=f3e359]:
+      - generic [ref=f3e360]:
+        - paragraph [ref=f3e361]: 02 / A little about me
+        - heading "Curious by default." [level=2] [ref=f3e362]: Curious bydefault.
+      - generic [ref=f3e363]:
+        - paragraph [ref=f3e364]: I’m interested in making complex technology feel useful, dependable, and human.
+        - paragraph [ref=f3e365]: I’m a Computer Science graduate and Full Stack Developer who enjoys building web applications and practical AI tools. I work across the user experience, application services, and LLM-powered features, and care about clear interfaces, thoughtful trade-offs, and dependable delivery.
+        - generic [ref=f3e366]:
+          - generic [ref=f3e367]:
+            - generic [ref=f3e368]: "01"
+            - generic [ref=f3e369]: Full-stack apps
+          - generic [ref=f3e370]:
+            - generic [ref=f3e371]: "02"
+            - generic [ref=f3e372]: Generative AI
+          - generic [ref=f3e373]:
+            - generic [ref=f3e374]: "03"
+            - generic [ref=f3e375]: RAG & agents
+          - generic [ref=f3e376]:
+            - generic [ref=f3e377]: "04"
+            - generic [ref=f3e378]: APIs & services
+          - generic [ref=f3e379]:
+            - generic [ref=f3e380]: "05"
+            - generic [ref=f3e381]: React / Node.js
+          - generic [ref=f3e382]:
+            - generic [ref=f3e383]: "06"
+            - generic [ref=f3e384]: Problem solving
+    - generic [ref=f3e386]:
+      - generic [ref=f3e387]:
+        - paragraph [ref=f3e388]: 04 / Technical toolkit
+        - heading "AI ideas. Real products." [level=2] [ref=f3e389]: AI ideas.Real products.
+        - paragraph [ref=f3e390]: I bring full-stack engineering and applied AI together to take products from a clear idea to a deployed experience.
+      - generic [ref=f3e391]:
+        - article [ref=f3e392]:
+          - generic [ref=f3e393]:
+            - paragraph [ref=f3e394]: 01 / Full-stack development
+            - generic [ref=f3e395]: DESIGN → BUILD → SHIP
+          - paragraph [ref=f3e396]: End-to-end product engineering across polished interfaces, reliable APIs, data, and deployment.
+          - generic [ref=f3e397]:
+            - generic [ref=f3e398]: React
+            - generic [ref=f3e399]: Next.js
+            - generic [ref=f3e400]: JavaScript
+            - generic [ref=f3e401]: Tailwind CSS
+            - generic [ref=f3e402]: Node.js
+            - generic [ref=f3e403]: Express.js
+            - generic [ref=f3e404]: FastAPI
+            - generic [ref=f3e405]: REST APIs
+            - generic [ref=f3e406]: MongoDB
+            - generic [ref=f3e407]: PostgreSQL
+            - generic [ref=f3e408]: JWT
+            - generic [ref=f3e409]: Vercel
+            - generic [ref=f3e410]: Render
+        - article [ref=f3e411]:
+          - generic [ref=f3e412]:
+            - paragraph [ref=f3e413]: 02 / Generative AI & agent systems
+            - generic [ref=f3e414]: RETRIEVE → REASON → ACT
+          - paragraph [ref=f3e415]: Practical AI features—from grounded RAG experiences to stateful, tool-using multi-agent workflows.
+          - generic [ref=f3e416]:
+            - generic [ref=f3e417]: RAG
+            - generic [ref=f3e418]: LangChain
+            - generic [ref=f3e419]: LangGraph
+            - generic [ref=f3e420]: Vector embeddings
+            - generic [ref=f3e421]: OpenAI APIs
+            - generic [ref=f3e422]: Google Gemini
+            - generic [ref=f3e423]: Groq
+            - generic [ref=f3e424]: FAISS
+            - generic [ref=f3e425]: ChromaDB
+            - generic [ref=f3e426]: Tool calling
+            - generic [ref=f3e427]: Agent orchestration
+            - generic [ref=f3e428]: LLM guardrails
+            - generic [ref=f3e429]: Server-Sent Events
+      - generic [ref=f3e430]:
+        - heading "Complete toolkit" [level=3] [ref=f3e431]
+        - paragraph [ref=f3e432]: Languages · frameworks · data · AI · deployment
+      - generic [ref=f3e433]:
+        - generic [ref=f3e434]:
+          - paragraph [ref=f3e435]: Languages
+          - generic [ref=f3e436]:
+            - generic [ref=f3e437]: JavaScript
+            - generic [ref=f3e438]: Python
+            - generic [ref=f3e439]: C++
+            - generic [ref=f3e440]: SQL
+            - generic [ref=f3e441]: HTML
+            - generic [ref=f3e442]: CSS
+        - generic [ref=f3e443]:
+          - paragraph [ref=f3e444]: Frontend
+          - generic [ref=f3e445]:
+            - generic [ref=f3e446]: React
+            - generic [ref=f3e447]: Next.js
+            - generic [ref=f3e448]: Vite
+            - generic [ref=f3e449]: Tailwind CSS
+            - generic [ref=f3e450]: TanStack Query
+            - generic [ref=f3e451]: React Router
+        - generic [ref=f3e452]:
+          - paragraph [ref=f3e453]: Services & APIs
+          - generic [ref=f3e454]:
+            - generic [ref=f3e455]: Node.js
+            - generic [ref=f3e456]: Express.js
+            - generic [ref=f3e457]: FastAPI
+            - generic [ref=f3e458]: REST APIs
+            - generic [ref=f3e459]: JWT
+            - generic [ref=f3e460]: Zod
+            - generic [ref=f3e461]: Server-Sent Events
+        - generic [ref=f3e462]:
+          - paragraph [ref=f3e463]: Data
+          - generic [ref=f3e464]:
+            - generic [ref=f3e465]: MongoDB
+            - generic [ref=f3e466]: Mongoose
+            - generic [ref=f3e467]: PostgreSQL
+            - generic [ref=f3e468]: MySQL
+            - generic [ref=f3e469]: ChromaDB
+            - generic [ref=f3e470]: Pinecone
+            - generic [ref=f3e471]: FAISS
+        - generic [ref=f3e472]:
+          - paragraph [ref=f3e473]: Generative AI
+          - paragraph [ref=f3e474]: Models, retrieval, and the frameworks behind LLM-powered features.
+          - generic [ref=f3e475]:
+            - generic [ref=f3e476]: LangChain
+            - generic [ref=f3e477]: RAG
+            - generic [ref=f3e478]: Vector embeddings
+            - generic [ref=f3e479]: OpenAI APIs
+            - generic [ref=f3e480]: Google Gemini
+            - generic [ref=f3e481]: Groq
+            - generic [ref=f3e482]: Hugging Face
+        - generic [ref=f3e483]:
+          - paragraph [ref=f3e484]: AI agents
+          - paragraph [ref=f3e485]: Tool-using, stateful workflows that plan and act across tasks.
+          - generic [ref=f3e486]:
+            - generic [ref=f3e487]: LangGraph
+            - generic [ref=f3e488]: Tool calling
+            - generic [ref=f3e489]: Agent orchestration
+            - generic [ref=f3e490]: Memory management
+            - generic [ref=f3e491]: LLM guardrails
+            - generic [ref=f3e492]: Conditional routing
+            - generic [ref=f3e493]: Shared state
+            - generic [ref=f3e494]: Multi-agent systems
+        - generic [ref=f3e495]:
+          - paragraph [ref=f3e496]: AI development
+          - generic [ref=f3e497]:
+            - generic [ref=f3e498]: GitHub Copilot
+            - generic [ref=f3e499]: Claude
+            - generic [ref=f3e500]: Cursor
+            - generic [ref=f3e501]: Spec-driven development
+            - generic [ref=f3e502]: Prompt engineering
+        - generic [ref=f3e503]:
+          - paragraph [ref=f3e504]: Developer tools
+          - generic [ref=f3e505]:
+            - generic [ref=f3e506]: Git
+            - generic [ref=f3e507]: GitHub
+            - generic [ref=f3e508]: VS Code
+            - generic [ref=f3e509]: Jupyter
+            - generic [ref=f3e510]: Cloudinary
+        - generic [ref=f3e511]:
+          - paragraph [ref=f3e512]: Deployment
+          - generic [ref=f3e513]:
+            - link "Vercel official website" [ref=f3e514] [cursor=pointer]:
+              - /url: https://vercel.com/
+              - text: Vercel
+            - link "Render official website" [ref=f3e515] [cursor=pointer]:
+              - /url: https://render.com/
+              - text: Render
+            - link "Streamlit Community Cloud official website" [ref=f3e516] [cursor=pointer]:
+              - /url: https://streamlit.io/cloud
+              - text: Streamlit Community Cloud
+            - link "Hugging Face Spaces official website" [ref=f3e517] [cursor=pointer]:
+              - /url: https://huggingface.co/spaces
+              - text: Hugging Face Spaces
+            - link "Netlify official website" [ref=f3e518] [cursor=pointer]:
+              - /url: https://www.netlify.com/
+              - text: Netlify
+            - link "Docker official website" [ref=f3e519] [cursor=pointer]:
+              - /url: https://www.docker.com/
+              - text: Docker
+        - generic [ref=f3e520]:
+          - paragraph [ref=f3e521]: Computer science
+          - generic [ref=f3e522]:
+            - generic [ref=f3e523]: Data structures & algorithms
+            - generic [ref=f3e524]: Problem solving
+            - generic [ref=f3e525]: Testing
+        - generic [ref=f3e526]:
+          - paragraph [ref=f3e527]: Machine learning & deep learning
+          - generic [ref=f3e528]:
+            - generic [ref=f3e529]: scikit-learn
+            - generic [ref=f3e530]: Pandas
+            - generic [ref=f3e531]: NumPy
+            - generic [ref=f3e532]: Neural networks
+            - generic [ref=f3e533]: TensorFlow
+            - generic [ref=f3e534]: NLP
+            - generic [ref=f3e535]: Transformer architectures
+      - generic [ref=f3e536]:
+        - generic [ref=f3e537]:
+          - paragraph [ref=f3e538]: 05 / Education
+          - heading "Computer Science & Engineering" [level=3] [ref=f3e539]
+          - paragraph [ref=f3e540]: Bachelor of Technology
+          - paragraph [ref=f3e541]: Graphic Era Hill University · Dehradun, India
+          - paragraph [ref=f3e542]: September 2021 — June 2025
+        - generic [ref=f3e543]:
+          - paragraph [ref=f3e544]: Recognition & certifications
+          - paragraph [ref=f3e545]: Top 10 Contributor, Hacktoberfest 2023
+          - paragraph [ref=f3e546]: Among 2,000+ developers. Solved 250+ DSA problems on LeetCode and Codeforces.
+          - list [ref=f3e547]:
+            - listitem [ref=f3e548]: "Supervised Machine Learning: Regression and Classification — Coursera / DeepLearning.AI"
+            - listitem [ref=f3e549]: Advanced Learning Algorithms — Coursera / DeepLearning.AI
+            - listitem [ref=f3e550]: "Spring Boot: Microservices, Kafka, Docker, Kubernetes, AWS — CodingShuttle"
+    - generic [ref=f3e552]:
+      - paragraph [ref=f3e553]: 06 / How I think
+      - generic [ref=f3e554]:
+        - paragraph [ref=f3e555]: Good engineering is not just making it work. It’s making the next change make sense.
+        - paragraph [ref=f3e556]: I value clear interfaces, useful abstractions, and systems that can be reasoned about. The best solution is the one that fits the real problem—not the trendiest tool.
+    - generic [ref=f3e558]:
+      - paragraph [ref=f3e559]: 07 / Start a conversation
+      - generic [ref=f3e560]:
+        - heading "Let’s build what’s next." [level=2] [ref=f3e561]: Let’s buildwhat’s next.
+        - generic [ref=f3e562]:
+          - paragraph [ref=f3e563]: Have an interesting problem, project, or idea? I’d be glad to hear about it.
+          - link "Get in touch" [ref=f3e564] [cursor=pointer]:
+            - /url: mailto:adamyakumar2307@gmail.com?subject=Hello%20Adamya&body=Hi%20Adamya%2C%0A%0A
+            - text: Get in touch
+            - generic [aria-hidden] [ref=f3e565]: ↗
+  - contentinfo [ref=f3e566]:
+    - generic [ref=f3e567]:
+      - generic [ref=f3e568]:
+        - generic [ref=f3e569]:
+          - link "Back to top" [ref=f3e570] [cursor=pointer]:
+            - /url: "#top"
+            - generic [ref=f3e571]: A.
+            - generic [ref=f3e572]: ADAMYA
+          - paragraph [ref=f3e573]: Full stack development · Generative AI
+        - generic [ref=f3e574]:
+          - link "Email ↗adamyakumar2307@gmail.com" [ref=f3e575] [cursor=pointer]:
+            - /url: mailto:adamyakumar2307@gmail.com
+            - generic [ref=f3e576]: Email ↗
+            - text: adamyakumar2307@gmail.com
+          - link "Phone ↗+91 73108 39922" [ref=f3e577] [cursor=pointer]:
+            - /url: tel:+917310839922
+            - generic [ref=f3e578]: Phone ↗
+            - text: +91 73108 39922
+          - link "LinkedIn ↗linkedin.com/in/adamya-kumar" [ref=f3e579] [cursor=pointer]:
+            - /url: https://linkedin.com/in/adamya-kumar
+            - generic [ref=f3e580]: LinkedIn ↗
+            - text: linkedin.com/in/adamya-kumar
+          - link "GitHub ↗github.com/Adamya-Kumar" [ref=f3e581] [cursor=pointer]:
+            - /url: https://github.com/Adamya-Kumar
+            - generic [ref=f3e582]: GitHub ↗
+            - text: github.com/Adamya-Kumar
+          - link "Download resume" [ref=f3e583] [cursor=pointer]:
+            - /url: /Adamya-Kumar-Resume.pdf
+            - text: Download resume
+            - generic [aria-hidden] [ref=f3e584]: ↓
+      - paragraph [ref=f3e585]: © 2026 Adamya Kumar · Bangalore, India
