@@ -1,6 +1,19 @@
 import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 
+const resumeLinks = [
+  {
+    label: "AI/ML & GenAI Resume",
+    navLabel: "AI/ML Resume",
+    href: "/Adamya_Kumar_AI_ML_GenAI_Resume_.pdf",
+  },
+  {
+    label: "SDE & Full Stack Resume",
+    navLabel: "SDE Resume",
+    href: "/Adamya_Kumar_SDE_FullStack_Resume.pdf",
+  },
+];
+
 const projects = [
   {
     number: "01",
@@ -713,13 +726,16 @@ function Header({ theme, onThemeToggle, projectPage = false }) {
                 </a>
               ))}
           </div>
-          <a
-            className="eyebrow nav-link hidden py-3 xl:inline-flex"
-            href="/Adamya-Kumar-Resume.pdf"
-            download
-          >
-            Resume ↓
-          </a>
+          {resumeLinks.map((resume) => (
+            <a
+              className="eyebrow nav-link hidden py-3 xl:inline-flex"
+              href={resume.href}
+              key={resume.href}
+              download
+            >
+              {resume.navLabel} ↓
+            </a>
+          ))}
           <button
             className="theme-toggle"
             type="button"
@@ -815,9 +831,13 @@ function Header({ theme, onThemeToggle, projectPage = false }) {
         <p className="eyebrow mt-8 text-[var(--muted)]">
           Full stack development · Generative AI
         </p>
-        <a className="bracket-button mt-6 w-fit" href="/Adamya-Kumar-Resume.pdf" download>
-          Download resume <span aria-hidden="true">↓</span>
-        </a>
+        <div className="mt-6 flex flex-wrap gap-3">
+          {resumeLinks.map((resume) => (
+            <a className="bracket-button w-fit" href={resume.href} key={resume.href} download>
+              {resume.label} <span aria-hidden="true">↓</span>
+            </a>
+          ))}
+        </div>
       </div>
     </header>
   );
@@ -1913,13 +1933,16 @@ function App() {
                   {link.value}
                 </a>
               ))}
-              <a
-                className="bracket-button mt-2 w-fit sm:col-span-2"
-                href="/Adamya-Kumar-Resume.pdf"
-                download
-              >
-                Download resume <span aria-hidden="true">↓</span>
-              </a>
+              {resumeLinks.map((resume) => (
+                <a
+                  className="bracket-button mt-2 w-fit sm:col-span-2"
+                  href={resume.href}
+                  key={resume.href}
+                  download
+                >
+                  {resume.label} <span aria-hidden="true">↓</span>
+                </a>
+              ))}
             </div>
           </div>
           <p className="eyebrow mt-8 border-t rule pt-5 text-[var(--muted)]">
